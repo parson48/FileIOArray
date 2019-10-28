@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace FileIOArray
 {
+    /// <summary>
+    /// demo of the git file.io
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -46,6 +49,10 @@ namespace FileIOArray
             return studentList;
         }
 
+        /// <summary>
+        /// Displats all students
+        /// </summary>
+        /// <param name="students"></param>
         static void DisplayAllStudents(string[] students)
         {
             Console.WriteLine();
